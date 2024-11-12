@@ -12,6 +12,7 @@ export default function Navbar() {
   return (
     <div className="bg-gradient-to-b from-pink-200 to-pink-700">
       <div className="max-w-screen-xl mx-auto px-4 py-5">
+       <div className="py-3 px-3 rounded-xl border w-full">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
             <h1 className="text-purple-800 hover:text-pink-700 font-serif font-extrabold sm:text-xl lg:text-2xl text-2xl">
@@ -55,6 +56,7 @@ export default function Navbar() {
             </Link>
           </ul>
         </nav>
+        </div>
       </div>
     </div>
   );
