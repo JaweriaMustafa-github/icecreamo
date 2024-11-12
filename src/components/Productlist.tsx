@@ -13,11 +13,11 @@ const products = [
   },
   {
     id: 2,
-    title: "Mango Icecreamo",
-    category: "Natural Flavours",
+    title: "Hokey Pokey Icecreamo",
+    category: "Delights",
     price: "10.00$",
     imageURL:
-      "/images/Mango icecream.png",
+      "/images/Crunchy Hokey Pokey Icecream.png",
     bgColor: "bg-pink-500",
   },
   {
