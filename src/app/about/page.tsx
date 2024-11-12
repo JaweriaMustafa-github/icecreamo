@@ -27,12 +27,12 @@ Indulge, Enjoy, and Explore - That&apos;s the Icecreamo Way!</p>
 <a href="https://www.instagram/example/ice-creamo.com" target='blank' className="text-white">Instagram</a>
 </div>
 <div className="pb-10  text-white hover:text-purple-400 justify-items-center">
-<IoMail />
-<a href="mailto:www.icecreamo@gmail.com" target='blank' className="text-white">Icecreamo@gmail.com</a>
-</div>
-<div className="pb-10  text-white hover:text-purple-400 justify-items-center">
 <FaTwitter  />
 <a href="https://www.twitter/example/ice-creamo.com" target='blank' className="text-white">Twitter</a>
+</div>
+<div className="pb-10  text-white hover:text-purple-400 justify-items-center">
+<IoMail />
+<a href="mailto:www.icecreamo@gmail.com" target='blank' className="text-white">Icecreamo@gmail.com</a>
 </div>
 <Footer/>
     </div>
