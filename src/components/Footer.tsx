@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <div>
-      <footer className='flex flex-col space-y-10 justify-center m-10 mb-0'>
+      <footer className='flex flex-col space-y-10 justify-center w-100%'>
         <div className=' text-pink-300 font-medium bg-gradient-to-l from-pink-200 to-pink-700'>
         <nav className='flex justify-center flex-wrap gap-6'>
           <a className='hover:text-pink-600 text-white' href="#">Home</a>
