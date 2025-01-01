@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ProductCard from "./Productcard";
-import { Product } from "@/pages/types";
+import { Product } from "@/types";
 
 const Menu = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -137,8 +137,15 @@ const Menu = () => {
                   </button>
 
                   <button
+                   onClick={() => router.push("/contact-us")}
+                   className="bg-pink-800 text-white py-3 px-8 ml-6 rounded-lg text-lg shadow-md hover:bg-pink-600 transition duration-300"
+                  >
+                   Go to Contact us
+                   </button>
+
+                  <button
                     onClick={clearCart}
-                    className="bg-pink-800 text-white py-3 px-8 ml-6 rounded-lg shadow-md text-lg hover:bg-pink-500 transition duration-300 ease-in-out transform hover:scale-110"
+                    className="bg-purple-800 text-white py-3 px-8 ml-6 rounded-lg shadow-md text-lg hover:bg-purple-500 transition duration-300 ease-in-out transform hover:scale-110"
                   >
                     Clear Cart
                   </button>
@@ -209,6 +216,7 @@ const Menu = () => {
           </div>
         </div>
       )}
+      
     </div>
   );
 };

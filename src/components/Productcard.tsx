@@ -1,5 +1,5 @@
 'use client'
-import { Product } from "@/pages/types"
+import { Product } from "@/types"
 import React from 'react'
 import Image from "next/image"
 
