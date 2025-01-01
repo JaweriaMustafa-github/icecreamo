@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
+import Menu from "@/components/Menu";
 import Navbar from "@/components/Navbar";
 import Offer from "@/components/Offer";
 import ProductLList from "@/components/Productlist";
@@ -14,6 +15,7 @@ export default function Home() {
     <Banner/>
     <Carousel/>
     <ProductLList/>
+    <Menu />
     <Progressor/>
     <Offer/>
     <Footer/>
