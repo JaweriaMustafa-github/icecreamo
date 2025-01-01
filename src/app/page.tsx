@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Offer from "@/components/Offer";
 import ProductLList from "@/components/Productlist";
 import Progressor from "@/components/Progressor";
+import Reservation from "@/components/Reservation";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <Menu />
     <Progressor/>
     <Offer/>
+    <Reservation/>
     <Footer/>
     </div>
   );
